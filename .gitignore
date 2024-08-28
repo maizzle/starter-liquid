@@ -1,0 +1,5 @@
+.idea
+.vscode
+build_local
+node_modules
+package-lock.json
