@@ -4,13 +4,8 @@ module.exports = {
     require('tailwindcss-preset-email'),
   ],
   content: [
-    './src/**/*.html',
+    './components/**/*.html',
+    './emails/**/*.html',
+    './layouts/**/*.html',
   ],
-  theme: {
-    extend: {
-      fontFamily: {
-        inter: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
-      },
-    },
-  },
 }
